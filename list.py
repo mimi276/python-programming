@@ -1,0 +1,13 @@
+list1=[123,'abcd',3.4,'tom',34.6]
+list2=['abc',7,'ram',0.12]
+print(list1+list2)
+print(len(list1))
+list1.append(100)
+print(list1)
+print(list1.count('ram'))
+list1.remove('tom')
+print(list1)
+list1.reverse()
+print(list1)
+list1.insert(2,22)
+print(list1)
